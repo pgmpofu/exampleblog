@@ -10,16 +10,6 @@ This project was developed as part of the requirements for completing the MongoD
 
 3. Install the latest version of Maven. If you would like to perform a manual install, instructions can be found [here](https://maven.apache.org/install.html). To install using Homebrew on Mac follow [these](http://brewformulas.org/Maven) instructions.
 
-4.  Add the following dependencies to your pom.xml file:
-`        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>{**enter desired version here**}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>{**enter desired version here**}</version>
-        </dependency>`
+4.  Add the SLF4J Simple Binding [library](https://mvnrepository.com/artifact/org.slf4j/slf4j-simple) and the SLF4J API [library](https://mvnrepository.com/artifact/org.slf4j/slf4j-api) to your pom.xml file. This is important for logging and can be ignored if there is no desire to see the logs. 
 
   5. Install MongoDB. Installation instructions can be found [here](https://docs.mongodb.com/manual/installation/). The download can be found [here](https://www.mongodb.com/download-center)
