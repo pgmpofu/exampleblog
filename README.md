@@ -1,8 +1,8 @@
-#Introduction
+# Introduction
 
 This project was developed as part of the requirements for completing the MongoDB for Java Developers Course (MJ101) facilitated by [MongoDB University](https://university.mongodb.com/). The course outcome was a simple example blog using boilerplate code provided by the university.
 
-#Setting Up The Development Environment
+# Setting Up The Development Environment
 
 1. Install the latest JDK. This can be downloaded [here](http://www.oracle.com/technetwork/java/javase/downloads).
 
