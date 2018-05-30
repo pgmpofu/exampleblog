@@ -15,9 +15,8 @@ This project was developed as part of the requirements for completing the MongoD
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>{**enter desired version here**}</version>
-        </dependency>`
-
-        `<dependency>
+        </dependency>
+        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>{**enter desired version here**}</version>
