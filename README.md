@@ -2,7 +2,7 @@
 
 This project was developed as part of the requirements for completing the MongoDB for Java Developers Course (MJ101) facilitated by [MongoDB University](https://university.mongodb.com/). The course outcome was a simple example blog using boilerplate code provided by the university.
 
-# Setting Up The Development Environment
+## Setting Up The Development Environment
 
 1. Install the latest JDK. This can be downloaded [here](http://www.oracle.com/technetwork/java/javase/downloads).
 
@@ -15,3 +15,10 @@ This project was developed as part of the requirements for completing the MongoD
 5. Install MongoDB. Installation instructions can be found [here](https://docs.mongodb.com/manual/installation/). The download can be found [here](https://www.mongodb.com/download-center)
 
 6. Add the Freemarker Templating Engine [library](https://freemarker.apache.org/freemarkerdownload.html) to your pom.xml file. This library will help to develop web pages easily.
+
+## Running The Application
+1. Navigate to the main class
+
+2. Right click and select Run
+
+3. Navigate to localhost:4547
