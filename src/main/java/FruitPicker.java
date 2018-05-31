@@ -15,7 +15,7 @@ import java.util.Map;
 import static spark.Spark.halt;
 
 /**
- * Created by patiencempofu on 2018/05/31.
+ * Created by Patience Mpofu on 2018/05/31.
  */
 public class FruitPicker {
 
@@ -25,7 +25,7 @@ public class FruitPicker {
         configuration.setClassLoaderForTemplateLoading(ClassLoader.getSystemClassLoader(), "/");
 
         Spark.get("/hello_fruit", new Route() {
-            public Object handle(Request request, Response response) throws Exception {
+            public Object handle(Request request, Response response)  {
 
                 StringWriter stringWriter = new StringWriter();
 
@@ -33,7 +33,7 @@ public class FruitPicker {
                     Template template = configuration.getTemplate("fruitpicker.ftl");
 
                     Map<String, Object> fruits = new HashMap();
-                    fruits.put("fruits", Arrays.asList("apple, orange, banana, peaches"));
+                    fruits.put("fruits", Arrays.asList("apple", "orange", "banana", "peaches"));
                     template.process(fruits, stringWriter);
 
                     System.out.println(stringWriter);
