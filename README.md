@@ -14,4 +14,4 @@ This project was developed as part of the requirements for completing the MongoD
 
 5. Install MongoDB. Installation instructions can be found [here](https://docs.mongodb.com/manual/installation/). The download can be found [here](https://www.mongodb.com/download-center)
 
-6. Add the Freemarker Templating Engine library to your pom.xml file. This library will help to develop web pages easily.
+6. Add the Freemarker Templating Engine [library](https://freemarker.apache.org/freemarkerdownload.html) to your pom.xml file. This library will help to develop web pages easily.
