@@ -21,4 +21,4 @@ This project was developed as part of the requirements for completing the MongoD
 
 2. Right click and select Run
 
-3. Navigate to localhost:4547
+3. Navigate to localhost:4547/[insert class name]
